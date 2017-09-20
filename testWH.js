@@ -1,4 +1,3 @@
-/* --- Q1 --- */
 function makeHttpObject() {
     try { return new XMLHttpRequest(); } catch (error) {}
     try { return new ActiveXObject("Msxml2.XMLHTTP"); } catch (error) {}
@@ -22,6 +21,8 @@ function getHttpRequest(url) {
     };
 
 }
+
+/* --- Q1 --- */
 
 var pageView = function() {
 
